@@ -23,10 +23,10 @@ int main()
 
     // 定义装甲板四个顶点在图像中的坐标
     vector<Point2f> image_points;
-    image_points.push_back(Point2f(227, 197)); // 左下角
-    image_points.push_back(Point2f(214, 89));  // 左上角
-    image_points.push_back(Point2f(360, 71));  // 右上角
-    image_points.push_back(Point2f(364, 179)); // 右下角
+    image_points.push_back(Point2f(994, 899)); // 左下角
+    image_points.push_back(Point2f(984, 816));  // 左上角
+    image_points.push_back(Point2f(1063, 813));  // 右上角
+    image_points.push_back(Point2f(1069, 896)); // 右下角
 
     // 使用PnP算法计算旋转向量和平移向量
     Mat rvec, tvec;

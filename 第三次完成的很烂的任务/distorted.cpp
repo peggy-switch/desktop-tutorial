@@ -1,3 +1,4 @@
+//Ò»´Î¡°¸´ÖÆÕ³Ìù¡±
 #include<opencv2/opencv.hpp>
 #include<string>
 using namespace std;
